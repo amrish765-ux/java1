@@ -1,0 +1,63 @@
+2022-01-24 17:18:20,749 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Starting SpringLoggingSimpleApplication using Java 13.0.1 on Dellprecision-P with PID 9244 (C:\DuratechSpringSTS\SpringLoggingSimple\target\classes started by DellPrecision in C:\DuratechSpringSTS\SpringLoggingSimple)
+2022-01-24 17:18:20,750 [DEBUG] com.dura.SpringLoggingSimpleApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-24 17:18:20,750 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-01-24 17:18:21,238 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-24 17:18:21,240 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-01-24 17:18:21,241 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-24 17:18:21,290 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-24 17:18:21,291 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 532 ms
+2022-01-24 17:18:21,461 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-24 17:18:21,481 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 17:18:21,489 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Started SpringLoggingSimpleApplication in 0.884 seconds (JVM running for 524.353)
+2022-01-24 17:18:21,492 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-01-24 17:18:38,892 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 17:18:38,894 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-01-24 17:18:38,895 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-01-24 17:18:38,899 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-1] This is hello world controller
+2022-01-24 17:18:38,900 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-1] This is error message
+2022-01-24 17:18:38,900 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-1] Fatal error
+2022-01-24 17:21:46,011 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-4] This is hello world controller
+2022-01-24 17:21:46,012 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-4] This is error message
+2022-01-24 17:21:46,012 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-4] Fatal error
+2022-01-24 17:21:46,619 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-5] This is hello world controller
+2022-01-24 17:21:46,620 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-5] This is error message
+2022-01-24 17:21:46,621 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-5] Fatal error
+2022-01-24 17:21:47,117 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-6] This is hello world controller
+2022-01-24 17:21:47,117 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-6] This is error message
+2022-01-24 17:21:47,117 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-6] Fatal error
+2022-01-24 17:21:47,647 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-7] This is hello world controller
+2022-01-24 17:21:47,648 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-7] This is error message
+2022-01-24 17:21:47,648 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-7] Fatal error
+2022-01-24 17:21:48,162 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-8] This is hello world controller
+2022-01-24 17:21:48,163 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-8] This is error message
+2022-01-24 17:21:48,163 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-8] Fatal error
+2022-01-24 17:21:48,785 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-9] This is hello world controller
+2022-01-24 17:21:48,785 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-9] This is error message
+2022-01-24 17:21:48,785 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-9] Fatal error
+2022-01-24 17:21:49,376 [INFO] com.dura.HelloWorldController [http-nio-8080-exec-10] This is hello world controller
+2022-01-24 17:21:49,376 [ERROR] com.dura.HelloWorldController [http-nio-8080-exec-10] This is error message
+2022-01-24 17:21:49,376 [TRACE] com.dura.HelloWorldController [http-nio-8080-exec-10] Fatal error
+2022-01-24 17:22:26,751 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Starting SpringLoggingSimpleApplication using Java 13.0.1 on Dellprecision-P with PID 9244 (C:\DuratechSpringSTS\SpringLoggingSimple\target\classes started by DellPrecision in C:\DuratechSpringSTS\SpringLoggingSimple)
+2022-01-24 17:22:26,751 [DEBUG] com.dura.SpringLoggingSimpleApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-24 17:22:26,752 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-01-24 17:22:27,290 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-24 17:22:27,292 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-01-24 17:22:27,292 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-24 17:22:27,344 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-24 17:22:27,345 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 588 ms
+2022-01-24 17:22:27,512 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-24 17:22:27,530 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 17:22:27,538 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Started SpringLoggingSimpleApplication in 0.84 seconds (JVM running for 770.388)
+2022-01-24 17:22:27,541 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-01-24 17:22:29,603 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Starting SpringLoggingSimpleApplication using Java 13.0.1 on Dellprecision-P with PID 9244 (C:\DuratechSpringSTS\SpringLoggingSimple\target\classes started by DellPrecision in C:\DuratechSpringSTS\SpringLoggingSimple)
+2022-01-24 17:22:29,604 [DEBUG] com.dura.SpringLoggingSimpleApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-01-24 17:22:29,604 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-01-24 17:22:30,042 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-01-24 17:22:30,044 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-01-24 17:22:30,045 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-24 17:22:30,109 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-01-24 17:22:30,110 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 501 ms
+2022-01-24 17:22:30,243 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-01-24 17:22:30,256 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 17:22:30,263 [INFO] com.dura.SpringLoggingSimpleApplication [restartedMain] Started SpringLoggingSimpleApplication in 0.8 seconds (JVM running for 773.113)
+2022-01-24 17:22:30,265 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged

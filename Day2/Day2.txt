@@ -1,0 +1,165 @@
+Good Afternoon..
+
+Welcome to the second day of training. 
+
+We can wait for few more minutes for other participants to join 
+
+Agenda Day2
+Helloworld Demo and Handson
+Create a jar file for our application
+Devtools
+Application property file and yaml property file
+Logging 
+Controllers
+Service 
+Springboot Initializers and command line runners 
+Spring data JPA -- Crud operations with h2 database 
+   (COntrollers, Service, Repository, Model)
+
+
+
+Controller -- recieves the request from the front end application
+        -- rest api -- url 
+		 eg www.flipkart.com/products/dress
+		-- the request will be processed by the controller 
+		Default port :8080
+		get method 
+		localhost:8080/cgi
+		        welcome to cgi application 
+				
+		localhost:8080/iiht
+		       welcome to IIHT application 
+			   
+Service -- Business logic of our application 
+       Controller class communicates with the service class 
+		
+Break for 15 mins
+
+Please complete HelloWOrldController and HelloWorldService implementation. Once completed give a done message in the chat.
+===============================================
+Property file and externalizing the property file
+
+Properties FIle -- to configure many properties of our application in a single file and to run the application in different environment  
+
+application.properties -- default property file 
+   src/main/resources 
+   
+   server.port=8086
+   spring.application.name=helloworld
+   spring.database = mysql 
+
+yaml -- human readable format  
+spring:
+    application:
+	    name:helloworld
+    database:mysql
+	
+Externalizing the properties 
+Instead of keeping the property file under classpath of your application folder, it can be stored in different location. 
+
+c:/application.properties
+
+java -jar -Dstring.config.location=c:/application.properties jarfile
+
+
+application properties -- can be shared to other teams 
+
+
+different profile 
+application_dev.properties 
+application_test.properties 
+application_operational.properties
+
+spring.active.profile=application_dev.properties 
+==================================================
+Java application -- Build -- Maven/Gradle 
+
+maven installed in our system 
+
+to verify if mvn is installed 
+    mvn --version 
+	
+go to your project folder from command prompt 
+  mvn package 
+
+jar file is created inside target folder 
+  cd target 
+  dir
+  
+  java -jar nameofthejarfile.jar
+	
+	
+to run the application in another port 
+  java -jar -Dserver.port=9092 nameofthejarfile.jar
+
+======================================================
+Spring Data Jpa 
+
+h2 database -- in memory database for java 
+
+dependency -- spring web 
+              spring data jpa 
+			  h2 database 
+	
+Application -- book application 
+   crud operations
+   c-create -- insert data into database-- insert(sql)
+   r - read -- retrive data from db -- select(sql)
+   u - update -- update data in db -- update(sql)
+   d-delete -- delete data from db -- delete (sql)   
+   
+   
+web application produce or consume info -- rest, soap 
+rest architecture 
+rest api methods
+get method -- @GetMapping -- read operation 
+post method -- @PostMapping -- create operation 
+put method -- @PutMapping -- update operation 
+delete method -- @DeleteMapping -- delete operation 
+
+
+Spring Data Jpa -- spring framework dependency 
+                -- persist the data 
+
+
+1.controller -- recieve the user request 
+2.service -- business logic 
+3. model -- database -- book database 
+         table book table 
+	
+model class 
+      class Book 
+	  {
+	    bookid long 
+		bookname String 
+	     getters and setters 
+		 
+		 
+ ORM -- object relational mapping -- Hibernate      
+ 
+4. repository interface 
+        crudrepository 
+		paging and sorting repository 
+		jpa repository 
+		
+		predefined methods inside the repository interface 
+		
+		findall
+		findbyid 
+		save
+		update 
+ 
+       findall          select * from emp
+	   findbyid/5  select * from emp where id=5          
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+   l 

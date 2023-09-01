@@ -1,0 +1,65 @@
+Hello world spring Project 
+Properties File and Externalizing properties file 
+create and Execute Jar files 
+contollers with implementation 
+Service with implementaion 
+Crud operations -- rest architecture 
+
+Agenda Day3 
+Spring data JPA -- crud operations -- H2 database, Mysql database 
+command line runner 
+loggin 
+exceptional handling 
+
+
+Spring data jpa 
+pom xml -- spring web, spring data jpa, h2 database 
+
+application.properties 
+     configure the database 
+
+model class 
+repository interface 
+controller 
+service 
+
+
+Project -- Book Information 
+model -- ORM 
+         class variables -- relational table fileds 
+		 getters and setters 
+		 
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/bookdatabasecgi?createDatabaseIfNotExist=true
+
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=true
+====================================================
+Hands On 
+Download the project bookjpah2 into iiht vm 
+import into sts workspace 
+work with rest end points using postman 
+Once completed please give a done message in the chat 
+======================================================
+Devtools -- dependency 
+  automates the restarting of application when some update is done in the code 
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-devtools</artifactId>
+<scope>runtime</scope>
+<optional>true</optional>
+</dependency>
+================================================
+COmmand Line Runner -- 
+     -- command line(console) while running your application 
+	 -- used with logging
+	 -- interface -- implement run method 
+	 -- @override
+==========================================
+logging -- monitoring 
+
+	 
+

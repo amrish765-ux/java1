@@ -1,0 +1,270 @@
+Springboot training -- 20 hrs 
+
+Agenda 
+Day1 
+Self introduction 
+TOC Walkthrough 
+IIHT guidelines/recommendations 
+Participatns Expectation 
+Participants Background
+
+Test
+Spring introduction 
+
+
+Dr.K.Sashi Ph.D Cloud Computing 
+
+14+ yrs exp in training and research 
+11+ yrs in development and corporate training
+
+Technology 
+Springboot, Microservices 
+Devops -- Docker, Kubernetes and Jenkins 
+Cloud -- AWS(Certified), Azure, GCP(Professional level training)
+Data science, Machine Learning and Deep learning (Projects, Research Projects)
+Big data 
+Sql and Nosql -- Mongodb, Couchbase, Cassandra, Redis, Neo4j
+
+Generative AI -- LLM -- CHatGPT 
+
+
+CGI -- 30+ training -- Springboot, Devops, Microservices, Bigdata 
+ 
+
+TOC walkthrough
+
+Basic to Intermediate 
+20 hrs ----
+Hands on 
+
+Participants Expectation 
+Microservices -- introduction -  demo 
+INternationalizing 
+Security --  Basics -- demo -- -- JWT, OAuth, Harishicorps Vault 
+
+SPringboot Cache -- redis database 
+configuration -- centralized 
+
+
+Participants Background 
+SPringboot : new 
+           : 1+ yrs 
+		   : 5+ yrs (Advanced Level)
+		   
+
+
+
+Java exp:
+Web dev: 
+Springboot: 
+Total exp:
+
+IIHT Guidelines 
+Assessment Test : Pre Assessment test -- Day 1(Java)
+                  Post Test -- Day 5(SPringboot)
+				  MCQ -- 15 to 20 questions
+
+Feedback -- IIHT Day1 
+            Day3 
+			Day5 
+			
+Documents -- day  -- shared -- one drive 
+Recording 
+
+Participants -- mute during the session 
+        If any qeustions -- unmute -- ask the question immediately 
+ 
+Database 
+  H2 database 
+  mysql database 
+  Redis database 
+  
+  
+Please take the  Pre assessment test -- once completed give a done msg in the chat 
+ 
+  
+Java 8, java 11
+      Java -- streams, Lambda fucntion, Interface, collections  
+ENterprise Applications - J2EE 
+    JSP, Servlet, EJB, RMI ......
+	  
+Spring Introduction 
+
+Spring Framework 
+Terminology 
+Loosly Coupled 
+Tightly Coupled 
+
+Class employee
+ {
+   eid: number 
+   ename: String 
+   Address: class
+   
+   void getdata()
+   int setdata
+   Address a=new Address()
+   }
+   
+ Employee class is dependent on the Address class 
+
+ Tightly coupled 
+
+
+Class employee
+ {
+   eid: number 
+   ename: String 
+   Address: class
+   
+   void getdata()
+   int setdata
+   public employee(Address a)
+   {
+   
+   }
+   
+   }
+
+Loosly coupled 
+
+=================================================
+Bank example 
+
+Tightly coupled 
+class MainBankClass
+{
+    banid id 
+	addres 
+	...
+	BankBranch sbibank = new SBIBank() 
+	BankBranch Indianbank = new IndianBank()
+	BankBranch iob = new IOBBank()
+	
+}
+
+class SBIBank
+{
+    
+
+}
+
+class Indian Bank
+{
+
+}
+
+
+if any branch is added 
+  if have to change our code 
+          RBI 
+   
+
+Loosly Coupled Archi 
+
+class MainBankClass
+{
+    banid id 
+	addres 
+	...
+public  MainBankClass(BankBranch bankbr)
+  {
+  
+  }
+	
+}
+
+class SBIBank
+{
+    
+
+}
+
+class Indian Bank
+{
+
+}
+
+class xyzbank()
+
+
+Spring Framework 
+   -- Loosly coupled Architecture 
+   
+SPring Overview 
+-- Application Development framework for Enterprise Java 
+-- SPring core -- Java Applications, Web Application 
+-- Loosly coupled Architecture 
+-- POJO class (Plain Old Java Object) -- Programming model -- easy development of J2EE applications 
+    ( No inheritance, No interface)
+-- Spring Web framework -- MVC -- (Model View Controller)
+
+-- Dependency injection and Inversion of control 
+
+Bank main class is dependent on the Bankbranch class
+
+In tighlty coupled architecture -- the class manages the dependency 
+    employee--- address (employee class will manage the dependency)
+	bank main class -- bank branch ( Bank main class will manage the dependency )
+
+Loosly coupled Arch -- the dependency is managed by the spring framework itself 	
+
+Spring Framework -- Loosly coupled Architecture 
+1. How does the spring framework knows what are the objects to be managed
+2. How to populate the dependency  
+
+
+Loosly coupled 
+Dependency injection-- 
+    value based dependency 
+	constructor based dependency 
+	autowiring 
+	
+	Springboot -- annotation -- manage the dependency 
+	
+IOC -- Inversion of Control 
+   IOC refers to programming style where a framework, controls the program flow.
+   We are changing the control from normal way. 
+
+IOC Container --  objects which has to be managed by spring framework 
+      BankBranch sbibank 
+      BankBranch xyzbank 
+      Employee  emp 
+	  
+
+Break for 15 mins 
+
+
+Spring MVC 
+View(data is viewed by the end user) 
+
+Controller -- view interacts with the controller 
+       Business logic is present in form of service 
+Model -- communicates with the database 
+
+
+Why springboot 
+    many configurations of SPring framework is automated 
+	 
+	  example -- applicationContext.xml is automated 
+	  inbuild tomcat server 
+	  
+
+	   
+
+
+
+
+Springboot 
+
+Controller 
+
+
+
+dependency -- spring web -- spring core 
+                            spring context 
+							
+							
+			 spring data jpa 
+			 spring data cloud 
+			 

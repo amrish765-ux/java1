@@ -1,0 +1,7 @@
+2023-08-31 17:45:42,950 INFO com.dura.SpringLoggingSimpleApplication [restartedMain] Starting SpringLoggingSimpleApplication using Java 17.0.4.1 on DESKTOP-OSGK6TU with PID 12808 (C:\Users\Admin\Desktop\IIHT_CGI_SpringBoot_2023\SpringBootCGI_AugSepBatch\Day3\SpringLoggingSimple\SpringLoggingSimple\target\classes started by Admin in C:\Users\Admin\Desktop\IIHT_CGI_SpringBoot_2023\SpringBootCGI_AugSepBatch\Day3\SpringLoggingSimple\SpringLoggingSimple)
+2023-08-31 17:45:42,952 DEBUG com.dura.SpringLoggingSimpleApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2023-08-31 17:45:42,952 INFO com.dura.SpringLoggingSimpleApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-08-31 17:45:44,961 INFO com.dura.SpringLoggingSimpleApplication [restartedMain] Started SpringLoggingSimpleApplication in 2.428 seconds (JVM running for 3.152)
+2023-08-31 17:46:54,296 INFO com.dura.HelloWorldController [http-nio-8080-exec-9] This is hello world controller
+2023-08-31 17:46:54,297 ERROR com.dura.HelloWorldController [http-nio-8080-exec-9] This is error message
+2023-08-31 17:46:54,297 TRACE com.dura.HelloWorldController [http-nio-8080-exec-9] Fatal error

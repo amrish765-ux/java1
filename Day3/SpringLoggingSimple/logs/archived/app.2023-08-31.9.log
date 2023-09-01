@@ -1,0 +1,12 @@
+2023-08-31 17:48:53,064 TRACE com.dura.HelloWorldController [http-nio-8080-exec-2] Fatal error
+2023-08-31 17:48:53,264 INFO com.dura.HelloWorldController [http-nio-8080-exec-3] This is hello world controller
+2023-08-31 17:48:53,264 ERROR com.dura.HelloWorldController [http-nio-8080-exec-3] This is error message
+2023-08-31 17:48:53,264 TRACE com.dura.HelloWorldController [http-nio-8080-exec-3] Fatal error
+2023-08-31 17:48:53,471 INFO com.dura.HelloWorldController [http-nio-8080-exec-4] This is hello world controller
+2023-08-31 17:48:53,471 ERROR com.dura.HelloWorldController [http-nio-8080-exec-4] This is error message
+2023-08-31 17:48:53,471 TRACE com.dura.HelloWorldController [http-nio-8080-exec-4] Fatal error
+2023-08-31 17:48:53,667 INFO com.dura.HelloWorldController [http-nio-8080-exec-5] This is hello world controller
+2023-08-31 17:48:53,669 ERROR com.dura.HelloWorldController [http-nio-8080-exec-5] This is error message
+2023-08-31 17:48:53,669 TRACE com.dura.HelloWorldController [http-nio-8080-exec-5] Fatal error
+2023-08-31 17:48:53,870 INFO com.dura.HelloWorldController [http-nio-8080-exec-6] This is hello world controller
+2023-08-31 17:48:53,870 ERROR com.dura.HelloWorldController [http-nio-8080-exec-6] This is error message
